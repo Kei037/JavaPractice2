@@ -1,3 +1,5 @@
+package ch_01;
+
 import java.util.Scanner;
 
 public class Method_03 {
