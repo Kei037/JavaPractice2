@@ -9,9 +9,13 @@ public class Method_08 {
         }
     }
 
-    static void reStars(int a) {
-        for (int i = a; i > 0; i--) {
-            System.out.print("*");
+    static void reStars(int a, int b) {
+        for (int i = 0; i <= b; i++) {
+            if (i <= b - a) {
+                System.out.print(" ");
+            }else {
+                System.out.print("*");
+            }
         }
     }
 
@@ -29,9 +33,12 @@ public class Method_08 {
 
         System.out.println("");
 
+        System.out.print("몇 단 : ");
+        n = stdIn.nextInt();
         for (int i = 1; i <= n; i++) {
-            reStars(n);
+            reStars(i,n);
             System.out.println("");
         }
+        stdIn.close();
     }
 }

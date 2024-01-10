@@ -4,14 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6dbcc0c3-0680-4348-ac4a-4d0632f64b9e" name="Changes" comment="commit test">
-      <change afterPath="$PROJECT_DIR$/src/ch_01/Method_04.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch_01/Method_05.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch_01/Method_06.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch_01/Method_07.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch_01/Method_08.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/Test.java" afterDir="false" />
+    <list default="true" id="6dbcc0c3-0680-4348-ac4a-4d0632f64b9e" name="Changes" comment="Method study">
+      <change afterPath="$PROJECT_DIR$/src/ch_01/ExString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch_01/ExValue_01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch_01/ExValue_02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch_01/ExValue_03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch_01/Method_09.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch_01/Method_10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch_01/Method_11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch_01/Method_12.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch_01/Method_13.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch_01/Method_08.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch_01/Method_08.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +50,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.ExString_01.executor": "Run",
+    "Application.ExValue_01.executor": "Run",
+    "Application.ExValue_02.executor": "Run",
+    "Application.ExValue_03.executor": "Run",
     "Application.Method_02.executor": "Run",
     "Application.Method_03.executor": "Run",
     "Application.Method_04.executor": "Run",
@@ -52,6 +61,11 @@
     "Application.Method_06.executor": "Run",
     "Application.Method_07.executor": "Run",
     "Application.Method_08.executor": "Run",
+    "Application.Method_09.executor": "Run",
+    "Application.Method_10.executor": "Run",
+    "Application.Method_11.executor": "Run",
+    "Application.Method_12.executor": "Run",
+    "Application.Method_13.executor": "Run",
     "Application.Test.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -66,7 +80,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "C:/JavaYoung/JavaIntelliJ/JavaPractice2/src/Main.java",
-    "settings.editor.selected.configurable": "project.propVCSSupport.Mappings",
+    "settings.editor.selected.configurable": "preferences.sourceCode.Java",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -83,6 +97,7 @@
     <attachedChunks>
       <set>
         <option value="jdk-11.0.21-corretto-11.0.21-f644763e9732-97de7592" />
+        <option value="jdk-17.0.9-corretto-17.0.9-f644763e9732-ebaef533" />
       </set>
     </attachedChunks>
   </component>
@@ -98,7 +113,8 @@
       <workItem from="1704768279607" duration="2000" />
       <workItem from="1704768289660" duration="21000" />
       <workItem from="1704768319127" duration="294000" />
-      <workItem from="1704768622127" duration="6295000" />
+      <workItem from="1704768622127" duration="9019000" />
+      <workItem from="1704844640630" duration="14505000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -124,7 +140,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704769902385</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Method study">
+      <option name="closed" value="true" />
+      <created>1704775910613</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1704775910613</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,7 +168,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
     <MESSAGE value="commit test" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit test" />
+    <MESSAGE value="Method study" />
+    <option name="LAST_COMMIT_MESSAGE" value="Method study" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

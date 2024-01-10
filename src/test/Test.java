@@ -41,7 +41,7 @@ public class Test {
 	     */
         Scanner sc = new Scanner(System.in);
         int[] numbers = new int[5];
-        int count = 1;
+        int count = 0;
 
         for (int i = 0; i < numbers.length; i++) {
             int temp = (int)(Math.random() * 3) + 1;
@@ -52,9 +52,49 @@ public class Test {
         for (int i = 0; i < 5; i++) {
             System.out.println((i + 1) + " / 5 입니다. 가위(1), 바위(2), 보(3)중 하나를 입력해 주십시요.");
             int answer = sc.nextInt();
+
+            String hands;
+            if (answer == 1) {
+                hands = "가위";
+            }else if (answer == 2) {
+                hands = "바위";
+            } else {
+                hands = "보";
+            }
             if (numbers[i] == answer) {
                 System.out.println("비겼습니다.");
+                i--;
+            }else if (answer == 1) {  // 가위
+               if (numbers[i] == 3) {
+                   System.out.println(hands + "입력하셧고, 컴은 보입니다. 사용자가 이겼습니다.");
+                   count++;
+               }else {
+                   System.out.println(hands + "입력하셧고, 컴은 바위입니다. 컴이 이겼습니다.");
+               }
+            }else if (answer == 2) {  // 바위
+                if (numbers[i] == 1) {
+                    System.out.println(hands + "입력하셧고, 컴은 가위입니다. 사용자가 이겼습니다.");
+                    count++;
+                }else {
+                    System.out.println(hands + "입력하셧고, 컴은 보입니다. 컴이 이겼습니다.");
+                }
+            } else if (answer ==3) {  // 보
+                if (numbers[i] == 2) {
+                    System.out.println(hands + "입력하셧고, 컴은 바위입니다. 사용자가 이겼습니다.");
+                    count++;
+                }else {
+                    System.out.println(hands + "입력하셧고, 컴은 가위입니다. 컴이 이겼습니다.");
+                }
+            }else {
+                System.out.println("가위(1), 바위(2), 보(3)중 하나를 입력해 주십시요.");
+                i--;
             }
+        }
+
+        if (count >= 3) {
+            System.out.println("게임 결과는 사용자가 이김");
+        }else {
+            System.out.println("게임 결과는 컴퓨터가 이김");
         }
     }
 }
