@@ -4,19 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6dbcc0c3-0680-4348-ac4a-4d0632f64b9e" name="Changes" comment="Method study">
-      <change afterPath="$PROJECT_DIR$/src/ch_01/ExString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch_01/ExValue_01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch_01/ExValue_02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch_01/ExValue_03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch_01/Method_09.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch_01/Method_10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch_01/Method_11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch_01/Method_12.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch_01/Method_13.java" afterDir="false" />
+    <list default="true" id="6dbcc0c3-0680-4348-ac4a-4d0632f64b9e" name="Changes" comment="Value, Method study">
+      <change afterPath="$PROJECT_DIR$/src/test/Test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/Test3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch_01/Method_08.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch_01/Method_08.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +26,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
@@ -70,10 +64,11 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/JavaYoung/JavaIntelliJ/JavaPractice2/src",
+    "last_opened_file_path": "C:/JavaYoung/JavaIntelliJ/JavaPractice2",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -115,6 +110,9 @@
       <workItem from="1704768319127" duration="294000" />
       <workItem from="1704768622127" duration="9019000" />
       <workItem from="1704844640630" duration="14505000" />
+      <workItem from="1704862229709" duration="94000" />
+      <workItem from="1704930999677" duration="949000" />
+      <workItem from="1705026917370" duration="5370000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -148,7 +146,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704775910613</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Value, Method study">
+      <option name="closed" value="true" />
+      <created>1704862254100</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1704862254100</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,7 +175,8 @@
     <MESSAGE value="test" />
     <MESSAGE value="commit test" />
     <MESSAGE value="Method study" />
-    <option name="LAST_COMMIT_MESSAGE" value="Method study" />
+    <MESSAGE value="Value, Method study" />
+    <option name="LAST_COMMIT_MESSAGE" value="Value, Method study" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
