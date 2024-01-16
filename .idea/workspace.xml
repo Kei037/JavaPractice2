@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6dbcc0c3-0680-4348-ac4a-4d0632f64b9e" name="Changes" comment="Value, Method study">
-      <change afterPath="$PROJECT_DIR$/src/test/Test2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/Test3.java" afterDir="false" />
+    <list default="true" id="6dbcc0c3-0680-4348-ac4a-4d0632f64b9e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/ch_02/accountpg/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch_02/accountpg/TestAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/contactTest/Contacts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/contactTest/Test4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,11 +77,14 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "C:/JavaYoung/JavaIntelliJ/JavaPractice2/src/Main.java",
-    "settings.editor.selected.configurable": "preferences.sourceCode.Java",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="test" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\JavaYoung\JavaIntelliJ\JavaPractice2\src" />
     </key>
@@ -87,6 +92,40 @@
       <recent name="ch_01" />
       <recent name="" />
     </key>
+  </component>
+  <component name="RunManager" selected="Application.TestAccount">
+    <configuration name="Test4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.contactTest.Test4" />
+      <module name="JavaPractice2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.contactTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestAccount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch_02.accountpg.TestAccount" />
+      <module name="JavaPractice2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch_02.accountpg.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TestAccount" />
+        <item itemvalue="Application.Test4" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -112,7 +151,8 @@
       <workItem from="1704844640630" duration="14505000" />
       <workItem from="1704862229709" duration="94000" />
       <workItem from="1704930999677" duration="949000" />
-      <workItem from="1705026917370" duration="5370000" />
+      <workItem from="1705026917370" duration="5428000" />
+      <workItem from="1705365394788" duration="12682000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -154,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1704862254100</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="test commit">
+      <created>1705034992246</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1705034992246</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,7 +223,18 @@
     <MESSAGE value="commit test" />
     <MESSAGE value="Method study" />
     <MESSAGE value="Value, Method study" />
-    <option name="LAST_COMMIT_MESSAGE" value="Value, Method study" />
+    <MESSAGE value="test commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="test commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
