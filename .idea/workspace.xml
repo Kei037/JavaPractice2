@@ -5,19 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6dbcc0c3-0680-4348-ac4a-4d0632f64b9e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ch_02/base/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch_02/base/TestExtends.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch_02/car/TestCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch_02/circle/TestCircle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch_02/draw/TestShape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch_02/employee/TestEmployee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch_02/employeeTest/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch_02/inheritance/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch_02/person/TestPerson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch_02/vehicle/Vehicle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch_02/account/TestAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaPractice2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaPractice2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch_02/accountpg/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch_02/account/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch_02/accountpg/TestAccount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/Test3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Test3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,13 +72,16 @@
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/JavaYoung/JavaIntelliJ/springTest",
+    "last_opened_file_path": "C:/JavaYoung/JavaIntelliJ/passCheck",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "C:/JavaYoung/JavaIntelliJ/JavaPractice2/src/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
@@ -101,7 +98,20 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ch_02.employeeTest.Test">
+  <component name="RunManager" selected="Application.TestAccount">
+    <configuration name="TestAccount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch_02.account.TestAccount" />
+      <module name="JavaPractice2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch_02.account.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestCircle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ch_02.circle.TestCircle" />
       <module name="JavaPractice2" />
@@ -154,26 +164,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ch_02.inheritance.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch_02.inheritance.Test" />
-      <module name="JavaPractice2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ch_02.inheritance.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestAccount" />
         <item itemvalue="Application.ch_02.employeeTest.Test" />
         <item itemvalue="Application.TestCircle" />
         <item itemvalue="Application.TestEmployee" />
         <item itemvalue="Application.TestShape" />
-        <item itemvalue="Application.ch_02.inheritance.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -203,7 +200,8 @@
       <workItem from="1704930999677" duration="949000" />
       <workItem from="1705026917370" duration="5428000" />
       <workItem from="1705365394788" duration="12713000" />
-      <workItem from="1705449854024" duration="15334000" />
+      <workItem from="1705449854024" duration="15669000" />
+      <workItem from="1705536050012" duration="6441000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -259,7 +257,14 @@
       <option name="project" value="LOCAL" />
       <updated>1705380448562</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="extends study commit">
+      <created>1705467009037</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1705467009037</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -283,7 +288,8 @@
     <MESSAGE value="Value, Method study" />
     <MESSAGE value="test commit" />
     <MESSAGE value="method, getter, setter commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="method, getter, setter commit" />
+    <MESSAGE value="extends study commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="extends study commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
