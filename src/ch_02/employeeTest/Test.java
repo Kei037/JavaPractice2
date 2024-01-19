@@ -58,6 +58,8 @@ class Employee {
     }
 
     public Employee(String name, int employeeId) {
+        this.name = name;
+        this.employeeId = employeeId;
     }
 
     public int calculateSalary() {
