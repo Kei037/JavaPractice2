@@ -14,7 +14,6 @@ public class Test {
 
         System.out.println();
 
-        b.refund(com);
         b.summary();
 
     }

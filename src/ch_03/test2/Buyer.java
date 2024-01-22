@@ -45,13 +45,4 @@ public class Buyer {  // 고객, 물건을 사는사람
         System.out.println("구입하신 제품은 " + itemList + "입니다.");
     }
 
-    void refund(Product product) {
-        if (products.remove(product)) {
-            money += product.price;
-            bonusPoint -= product.bonusPoint;
-            System.out.println(product + "을/를 반품하셨습니다.");
-        } else {
-            System.out.println("구입하신 제품 중 해당 제품이 없습니다.");
-        }
-    }
 }

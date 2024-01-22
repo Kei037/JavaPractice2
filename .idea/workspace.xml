@@ -4,28 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6dbcc0c3-0680-4348-ac4a-4d0632f64b9e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ch_03/casting/Casting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch_03/poly/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch_03/poly/Test2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch_03/robot/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch_03/shape/ShapeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch_03/shape/ShapeTest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch_03/shape/ShapeTest3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch_03/test/Audio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch_03/test/Buyer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch_03/test/Computer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch_03/test/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch_03/test/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch_03/test/Tv.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch_03/test2/Audio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch_03/test2/Buyer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch_03/test2/Computer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch_03/test2/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch_03/test2/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch_03/test2/Tv.java" afterDir="false" />
+    <list default="true" id="6dbcc0c3-0680-4348-ac4a-4d0632f64b9e" name="Changes" comment="instanceof study commit">
+      <change afterPath="$PROJECT_DIR$/src/ch_04/abstractTest/TestAbstract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch_04/abstractTest/TestAnimal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch_04/abstractTest2/Elementary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch_04/abstractTest2/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch_04/abstractTest2/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch_04/abstractTest2/University.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch_04/abstractTest3/Elementary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch_04/abstractTest3/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch_04/abstractTest3/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch_04/abstractTest3/University.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch_04/abstractTest4/Ex_01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch_04/abstractTest4/FileDownloadServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch_04/abstractTest4/LoginServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch_04/abstractTest5/Avante.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch_04/abstractTest5/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch_04/abstractTest5/CarTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch_04/abstractTest5/Genesis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch_04/abstractTest5/Grandeur.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch_04/abstractTest5/Sonata.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch_04/abstractTest6/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch_04/abstractTest6/RegularMember.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch_04/abstractTest6/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch_04/abstractTest6/VIPMember.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch_04/finalTest/TestFinal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch_02/employeeTest/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch_02/employeeTest/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch_03/test2/Buyer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch_03/test2/Buyer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch_03/test2/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch_03/test2/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +92,7 @@
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/JavaYoung/JavaIntelliJ/JavaPractice2/src/ch_03/test2",
+    "last_opened_file_path": "C:/JavaYoung/JavaIntelliJ/JavaPractice2/src/ch_04/abstractTest3",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -102,26 +108,56 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="ch_04.abstractTest6" />
+      <recent name="ch_04.abstractTest4" />
       <recent name="test" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\JavaYoung\JavaIntelliJ\JavaPractice2\src\ch_04\abstractTest3" />
       <recent name="C:\JavaYoung\JavaIntelliJ\JavaPractice2\src\ch_03\test2" />
       <recent name="C:\JavaYoung\JavaIntelliJ\JavaPractice2\src\ch_03\poly" />
       <recent name="C:\JavaYoung\JavaIntelliJ\JavaPractice2\src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ch_04.abstractTest5" />
       <recent name="ch_03.shape" />
       <recent name="ch_01" />
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ch_03.test.Test">
+  <component name="RunManager" selected="Application.ch_04.abstractTest6.Test">
+    <configuration name="CarTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch_04.abstractTest5.CarTest" />
+      <module name="JavaPractice2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch_04.abstractTest5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex_01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch_04.abstractTest4.Ex_01" />
+      <module name="JavaPractice2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch_04.abstractTest4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch_03.poly.Test" />
+      <option name="MAIN_CLASS_NAME" value="ch_04.abstractTest2.Test" />
       <module name="JavaPractice2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch_03.poly.*" />
+          <option name="PATTERN" value="ch_04.abstractTest2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,12 +165,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch_03.poly.Test2" />
+    <configuration name="ch_04.abstractTest3.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch_04.abstractTest3.Test" />
       <module name="JavaPractice2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch_03.poly.*" />
+          <option name="PATTERN" value="ch_04.abstractTest3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,38 +178,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ch_03.robot.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch_03.robot.Test" />
+    <configuration name="ch_04.abstractTest6.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch_04.abstractTest6.Test" />
       <module name="JavaPractice2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch_03.robot.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ch_03.test2.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch_03.test2.Test" />
-      <module name="JavaPractice2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ch_03.test2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ch_03.test.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch_03.test.Test" />
-      <module name="JavaPractice2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ch_03.test.*" />
+          <option name="PATTERN" value="ch_04.abstractTest6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -183,10 +193,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ch_03.test.Test" />
-        <item itemvalue="Application.ch_03.robot.Test" />
-        <item itemvalue="Application.ch_03.test2.Test" />
-        <item itemvalue="Application.Test2" />
+        <item itemvalue="Application.ch_04.abstractTest6.Test" />
+        <item itemvalue="Application.CarTest" />
+        <item itemvalue="Application.Ex_01" />
+        <item itemvalue="Application.ch_04.abstractTest3.Test" />
         <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
@@ -219,7 +229,8 @@
       <workItem from="1705365394788" duration="12713000" />
       <workItem from="1705449854024" duration="15669000" />
       <workItem from="1705536050012" duration="7128000" />
-      <workItem from="1705622413843" duration="16436000" />
+      <workItem from="1705622413843" duration="16683000" />
+      <workItem from="1705881623100" duration="13605000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -289,7 +300,14 @@
       <option name="project" value="LOCAL" />
       <updated>1705552842177</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="instanceof study commit">
+      <created>1705639978359</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1705639978359</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -315,7 +333,8 @@
     <MESSAGE value="method, getter, setter commit" />
     <MESSAGE value="extends study commit" />
     <MESSAGE value="account TEST commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="account TEST commit" />
+    <MESSAGE value="instanceof study commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="instanceof study commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
