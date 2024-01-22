@@ -1,6 +1,6 @@
 package ch_04.abstractTest6;
 
-public class VIPMember extends Member{
+public class VIPMember extends Member {
     private String name;         // 회원의 이름
     private int membershipYear;  // 회원 가입 연차
     public VIPMember(String name, int i) {
@@ -9,7 +9,14 @@ public class VIPMember extends Member{
     }
 
     @Override
-    String getName() { return this.name; }
+    public String getName() {
+        return super.getName();
+    }
+
+    @Override
+    public int getMembershipYear() {
+        return super.getMembershipYear();
+    }
 
     @Override
     int calculateAnnualFee() {

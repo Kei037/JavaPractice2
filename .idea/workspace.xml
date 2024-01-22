@@ -4,34 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6dbcc0c3-0680-4348-ac4a-4d0632f64b9e" name="Changes" comment="instanceof study commit">
-      <change afterPath="$PROJECT_DIR$/src/ch_04/abstractTest/TestAbstract.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch_04/abstractTest/TestAnimal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch_04/abstractTest2/Elementary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch_04/abstractTest2/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch_04/abstractTest2/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch_04/abstractTest2/University.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch_04/abstractTest3/Elementary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch_04/abstractTest3/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch_04/abstractTest3/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch_04/abstractTest3/University.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch_04/abstractTest4/Ex_01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch_04/abstractTest4/FileDownloadServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch_04/abstractTest4/LoginServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch_04/abstractTest5/Avante.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch_04/abstractTest5/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch_04/abstractTest5/CarTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch_04/abstractTest5/Genesis.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch_04/abstractTest5/Grandeur.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch_04/abstractTest5/Sonata.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch_04/abstractTest6/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch_04/abstractTest6/RegularMember.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch_04/abstractTest6/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch_04/abstractTest6/VIPMember.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch_04/finalTest/TestFinal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch_03/test2/Buyer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch_03/test2/Buyer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch_03/test2/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch_03/test2/Test.java" afterDir="false" />
+    <list default="true" id="6dbcc0c3-0680-4348-ac4a-4d0632f64b9e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/ch_04/abstractTest6/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch_04/abstractTest6/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch_04/abstractTest6/RegularMember.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch_04/abstractTest6/RegularMember.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch_04/abstractTest6/VIPMember.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch_04/abstractTest6/VIPMember.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -230,7 +206,7 @@
       <workItem from="1705449854024" duration="15669000" />
       <workItem from="1705536050012" duration="7128000" />
       <workItem from="1705622413843" duration="16683000" />
-      <workItem from="1705881623100" duration="13605000" />
+      <workItem from="1705881623100" duration="14261000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -307,7 +283,14 @@
       <option name="project" value="LOCAL" />
       <updated>1705639978359</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="abstract study commit">
+      <created>1705898525957</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1705898525957</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -334,7 +317,8 @@
     <MESSAGE value="extends study commit" />
     <MESSAGE value="account TEST commit" />
     <MESSAGE value="instanceof study commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="instanceof study commit" />
+    <MESSAGE value="abstract study commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="abstract study commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
