@@ -14,4 +14,5 @@ abstract class Member {
     public String getName() { return name; }
 
     public int getMembershipYear() { return membershipYear; }
+
 }
