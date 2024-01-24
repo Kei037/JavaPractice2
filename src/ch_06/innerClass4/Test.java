@@ -34,20 +34,22 @@ class MemberManagement {
         members[idx++] = new Member(memberID, memberName, memberAge);
     }
 
-    public Member findMember(String memberID) {
+    Member findMember(String memberID) {
         Member member = null;
-        for (int i = 0; i < idx; i++) {
-            if (members[i] != null) {
-                if (members[i].getMemberID().equals(memberID)) {
+        for(int i = 0; i < idx; i++) {
+            if(members[i] != null) {
+                if(members[i].getMemberID().equals(memberID)) {
                     member = members[i];
                     break;
-                } else {
-                    break;
                 }
+            }else {
+                break;
             }
         }
+
         return member;
     }
+
 
     public void displayAllMembers() {
         for (int i = 0; i < idx; i++) {
