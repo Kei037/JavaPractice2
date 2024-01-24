@@ -46,7 +46,6 @@ class MemberManagement {
                 break;
             }
         }
-
         return member;
     }
 
