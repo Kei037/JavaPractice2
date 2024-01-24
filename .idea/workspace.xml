@@ -4,18 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6dbcc0c3-0680-4348-ac4a-4d0632f64b9e" name="Changes" comment="abstract study commit">
-      <change afterPath="$PROJECT_DIR$/src/ch_05/interfaceTest/RemoteControl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch_05/interfaceTest/Television.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch_05/interfaceTest/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch_05/interfaceTest2/InterfaceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch_05/interfaceTest3/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch_05/interfaceTest3/interfaceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch_05/interfaceTest4/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch_05/interfaceTest5/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch_05/interfaceTest6/FlyingCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch_05/interfaceTest7/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch_05/interfaceTest8/Test.java" afterDir="false" />
+    <list default="true" id="6dbcc0c3-0680-4348-ac4a-4d0632f64b9e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/ch_06/anonymousInnerClass/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch_06/innerClass/InnerClassTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch_06/innerClass2/InnerClassTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch_06/innerClass3/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch_06/innerClass4/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch_06/innerClass5/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch_06/interfaceTest/Calc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch_06/interfaceTest/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch_06/interfaceTest/CompleteCalc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch_06/interfaceTest/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch_06/interfaceTest2/Calc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch_06/interfaceTest2/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch_06/interfaceTest2/CompleteCalc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch_06/interfaceTest2/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,7 +82,7 @@
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/JavaYoung/JavaIntelliJ/JavaPractice2/src/ch_05/interfaceTest8",
+    "last_opened_file_path": "C:/JavaYoung/JavaIntelliJ/JavaPractice2/src/ch_06/innerClass2",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -94,16 +98,17 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="ch_06.innerClass4" />
       <recent name="ch_04.abstractTest6" />
       <recent name="ch_04.abstractTest4" />
       <recent name="test" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\JavaYoung\JavaIntelliJ\JavaPractice2\src\ch_06\innerClass2" />
+      <recent name="C:\JavaYoung\JavaIntelliJ\JavaPractice2\src\ch_06\interfaceTest2" />
       <recent name="C:\JavaYoung\JavaIntelliJ\JavaPractice2\src\ch_05\interfaceTest8" />
       <recent name="C:\JavaYoung\JavaIntelliJ\JavaPractice2\src\ch_04\abstractTest3" />
       <recent name="C:\JavaYoung\JavaIntelliJ\JavaPractice2\src\ch_03\test2" />
-      <recent name="C:\JavaYoung\JavaIntelliJ\JavaPractice2\src\ch_03\poly" />
-      <recent name="C:\JavaYoung\JavaIntelliJ\JavaPractice2\src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="ch_04.abstractTest5" />
@@ -112,13 +117,13 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ch_05.interfaceTest8.Test">
-    <configuration name="FlyingCar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch_05.interfaceTest6.FlyingCar" />
+  <component name="RunManager" selected="Application.ch_06.innerClass4.Test">
+    <configuration name="InnerClassTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch_06.innerClass.InnerClassTest" />
       <module name="JavaPractice2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch_05.interfaceTest6.*" />
+          <option name="PATTERN" value="ch_06.innerClass.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,12 +131,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ch_05.interfaceTest4.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch_05.interfaceTest4.Test" />
+    <configuration name="ch_06.innerClass2.InnerClassTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch_06.innerClass2.InnerClassTest" />
       <module name="JavaPractice2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch_05.interfaceTest4.*" />
+          <option name="PATTERN" value="ch_06.innerClass2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,12 +144,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ch_05.interfaceTest5.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch_05.interfaceTest5.Test" />
+    <configuration name="ch_06.innerClass3.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch_06.innerClass3.Test" />
       <module name="JavaPractice2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch_05.interfaceTest5.*" />
+          <option name="PATTERN" value="ch_06.innerClass3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,12 +157,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ch_05.interfaceTest7.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch_05.interfaceTest7.Test" />
+    <configuration name="ch_06.innerClass4.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch_06.innerClass4.Test" />
       <module name="JavaPractice2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch_05.interfaceTest7.*" />
+          <option name="PATTERN" value="ch_06.innerClass4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -165,12 +170,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ch_05.interfaceTest8.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch_05.interfaceTest8.Test" />
+    <configuration name="ch_06.interfaceTest2.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch_06.interfaceTest2.Test" />
       <module name="JavaPractice2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch_05.interfaceTest8.*" />
+          <option name="PATTERN" value="ch_06.interfaceTest2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -180,11 +185,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ch_05.interfaceTest8.Test" />
-        <item itemvalue="Application.ch_05.interfaceTest7.Test" />
-        <item itemvalue="Application.FlyingCar" />
-        <item itemvalue="Application.ch_05.interfaceTest5.Test" />
-        <item itemvalue="Application.ch_05.interfaceTest4.Test" />
+        <item itemvalue="Application.ch_06.innerClass4.Test" />
+        <item itemvalue="Application.ch_06.innerClass3.Test" />
+        <item itemvalue="Application.ch_06.innerClass2.InnerClassTest" />
+        <item itemvalue="Application.InnerClassTest" />
+        <item itemvalue="Application.ch_06.interfaceTest2.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -219,7 +224,8 @@
       <workItem from="1705622413843" duration="16683000" />
       <workItem from="1705881623100" duration="14305000" />
       <workItem from="1705904974081" duration="1273000" />
-      <workItem from="1705967926272" duration="12939000" />
+      <workItem from="1705967926272" duration="13120000" />
+      <workItem from="1706054705599" duration="15534000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -317,7 +323,14 @@
       <option name="project" value="LOCAL" />
       <updated>1705906190008</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="interface study commit">
+      <created>1705985386599</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1705985386599</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -345,7 +358,8 @@
     <MESSAGE value="account TEST commit" />
     <MESSAGE value="instanceof study commit" />
     <MESSAGE value="abstract study commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="abstract study commit" />
+    <MESSAGE value="interface study commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="interface study commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
