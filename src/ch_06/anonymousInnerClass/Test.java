@@ -2,7 +2,7 @@ package ch_06.anonymousInnerClass;
 /*
 익명 내부 클래스 : 이름을 사용하지 않는 클래스
 1) 메서드를 호출할 때 생성 되거나, 2) 참조 변수에 대입할 때 new 예약어를 사용하여 생성
- */
+*/
 class Outter {
     Runnable getRunnable(int i) { // 메소드 선언
         int num = 100;
