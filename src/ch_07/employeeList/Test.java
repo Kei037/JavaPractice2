@@ -1,4 +1,5 @@
-package ch_02.employeeTest;
+package ch_07.employeeList;
+
 
 /*
 문제: 직원과 고용 관리 시스템
@@ -45,6 +46,8 @@ FullTimeEmployee 객체와 ContractEmployee 객체를 각각 생성하고, 연�
 메서드 오버라이딩을 통해 연봉을 계산하고 출력하세요.
 그리고 Main 클래스에서 객체를 생성하여 연봉을 확인하세요.
  */
+
+import java.util.ArrayList;
 
 class Employee {
     private String name;    // 직원의 이름
@@ -103,9 +106,13 @@ public class Test {
         ContractEmployee contractEmployee = new ContractEmployee("bak", 456, 5000000, 5);
         System.out.println(contractEmployee.calculateSalary());
 
-        FullTimeEmployee[] employees = {fullTimeEmployee, contractEmployee};
+        ArrayList<FullTimeEmployee> employees = new ArrayList<>();
+        employees.add(fullTimeEmployee);
+        employees.add(contractEmployee);
+        // FullTimeEmployee[] employees = {fullTimeEmployee, contractEmployee};
         for (FullTimeEmployee employee : employees) {
             System.out.println(employee.calculateSalary());
         }
+
     }
 }
