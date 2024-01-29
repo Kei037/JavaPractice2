@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6dbcc0c3-0680-4348-ac4a-4d0632f64b9e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ch_09/memberTreeSet/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch_09/memberTreeSet/MemberTreeSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch_09/memberTreeSet/MemberTreeSetTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch_09/treeSet/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch_09/treeSet/Test2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch_09/treeSet/Test3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch_09/map/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch_09/map2/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch_09/map3/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch_09/map4/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch_09/map4/Test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch_09/map4/Test3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,7 +73,7 @@
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/JavaYoung/JavaIntelliJ/JavaPractice2",
+    "last_opened_file_path": "C:/JavaYoung/JavaIntelliJ/springBootTest",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -102,33 +102,20 @@
       <recent name="C:\JavaYoung\JavaIntelliJ\JavaPractice2\src\ch_05\interfaceTest8" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ch_09.map4" />
       <recent name="ch_09.memberTreeSet" />
       <recent name="ch_08.hashSet3" />
       <recent name="ch_08.hashSet2" />
       <recent name="ch_07.arrayList" />
-      <recent name="ch_04.abstractTest5" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MemberTreeSetTest">
-    <configuration name="MemberHashSetTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch_08.hashSet3.MemberHashSetTest" />
+  <component name="RunManager" selected="Application.Test3">
+    <configuration name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch_09.map4.Test2" />
       <module name="JavaPractice2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch_08.hashSet3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MemberTreeSetTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch_09.memberTreeSet.MemberTreeSetTest" />
-      <module name="JavaPractice2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ch_09.memberTreeSet.*" />
+          <option name="PATTERN" value="ch_09.map4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,11 +124,11 @@
       </method>
     </configuration>
     <configuration name="Test3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch_09.treeSet.Test3" />
+      <option name="MAIN_CLASS_NAME" value="ch_09.map4.Test3" />
       <module name="JavaPractice2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch_09.treeSet.*" />
+          <option name="PATTERN" value="ch_09.map4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,12 +136,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ch_09.treeSet.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch_09.treeSet.Test" />
+    <configuration name="ch_09.map2.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch_09.map2.Test" />
       <module name="JavaPractice2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch_09.treeSet.*" />
+          <option name="PATTERN" value="ch_09.map2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -162,12 +149,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ch_09.treeSet.Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch_09.treeSet.Test2" />
+    <configuration name="ch_09.map3.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch_09.map3.Test" />
       <module name="JavaPractice2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch_09.treeSet.*" />
+          <option name="PATTERN" value="ch_09.map3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ch_09.map4.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch_09.map4.Test" />
+      <module name="JavaPractice2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch_09.map4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -177,11 +177,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MemberTreeSetTest" />
         <item itemvalue="Application.Test3" />
-        <item itemvalue="Application.ch_09.treeSet.Test2" />
-        <item itemvalue="Application.ch_09.treeSet.Test" />
-        <item itemvalue="Application.MemberHashSetTest" />
+        <item itemvalue="Application.Test2" />
+        <item itemvalue="Application.ch_09.map4.Test" />
+        <item itemvalue="Application.ch_09.map3.Test" />
+        <item itemvalue="Application.ch_09.map2.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -221,7 +221,7 @@
       <workItem from="1706074149911" duration="4161000" />
       <workItem from="1706140758519" duration="14371000" />
       <workItem from="1706227060967" duration="10873000" />
-      <workItem from="1706487607997" duration="6055000" />
+      <workItem from="1706487607997" duration="14770000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -368,7 +368,14 @@
       <option name="project" value="LOCAL" />
       <updated>1706244422496</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="TreeSet study post commit">
+      <created>1706494729438</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1706494729438</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -400,7 +407,8 @@
     <MESSAGE value="innerClass, anonymousInnerClass study commit" />
     <MESSAGE value="ArrayList, LinkedList, Generic study commit" />
     <MESSAGE value="Stack, Queue, HashSet study commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Stack, Queue, HashSet study commit" />
+    <MESSAGE value="TreeSet study post commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="TreeSet study post commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
