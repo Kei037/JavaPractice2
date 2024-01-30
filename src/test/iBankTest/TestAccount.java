@@ -117,9 +117,12 @@ public class TestAccount {
         System.out.println("출금");
         System.out.println("--------------");
         System.out.print("계좌번호: ");
-        String ano = scanner.next();
+        String accountNumber = scanner.next();
         System.out.print("출금액: ");
-        int money = scanner.nextInt();
+        int depositMoney = scanner.nextInt();
+
+        BankAccount bankAccount = findAccount(accountNumber);
+        bankAccount.deposit(accountNumber, depositMoney);
         /*
         if (account == null) {
             System.out.println("결과: 계좌가 없습니다.");
