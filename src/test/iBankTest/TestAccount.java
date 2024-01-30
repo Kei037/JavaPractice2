@@ -8,8 +8,8 @@ public class TestAccount {
     private static final ArrayList<BankAccount> accountList = new ArrayList<>();
 
     public static void main(String[] args) {
-        accountList.add(new SavingsAccount("123", "kim", 1000, 0.05));
-        accountList.add(new CheckingAccount("234", "jun", 10000, 0.1));
+        accountList.add(new SavingsAccount("1234", "tom", 10000, 0.05));
+        accountList.add(new CheckingAccount("2345", "lim", 20000, 0.1));
         boolean run = true;
         while (run) {
             System.out.println("----------------------------------------------------------");
@@ -96,20 +96,17 @@ public class TestAccount {
         int depositMoney = scanner.nextInt();
 
         BankAccount bankAccount = findAccount(accountNumber);
-        bankAccount.deposit(accountNumber, depositMoney);
-/*
-        if (account == null) {
+
+        if (bankAccount == null) {
             System.out.println("결과: 계좌가 없습니다.");
         } else {
-            if (0 >= money) {
+            if (0 >= depositMoney) {
                 System.out.println("0원 이상만 입금가능합니다.");
             }else {
-                account.setBalance(account.getBalance() + money);
+                bankAccount.deposit(accountNumber, depositMoney);
                 System.out.println("예금이 성공되었습니다.");
             }
         }
-
- */
     }
 
     private static void withdraw() {
@@ -122,22 +119,19 @@ public class TestAccount {
         int depositMoney = scanner.nextInt();
 
         BankAccount bankAccount = findAccount(accountNumber);
-        bankAccount.deposit(accountNumber, depositMoney);
-        /*
-        if (account == null) {
+
+        if (bankAccount == null) {
             System.out.println("결과: 계좌가 없습니다.");
         } else {
-            if (account.getBalance() < money) {
+            if (bankAccount.getBalance() < depositMoney) {
                 System.out.println("잔액보다 출금액이 커서 출금에 실패했습니다.");
-            } else if (0 >= money) {
+            } else if (0 >= depositMoney) {
                 System.out.println("0원 이상만 출금가능합니다.");
             } else {
-                account.setBalance(account.getBalance() - money);
+                bankAccount.withdraw(accountNumber, depositMoney);
                 System.out.println("출금이 성공되었습니다.");
             }
         }
-
-         */
     }
 
     private static void viewAccount() {

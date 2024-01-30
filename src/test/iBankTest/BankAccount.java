@@ -11,9 +11,6 @@ abstract class BankAccount implements IBankAccount {
         this.balance = balance;
     }
 
-    public BankAccount(String accountNumber) {
-        this.accountHolder = accountNumber;
-    }
 
     public String getAccountNumber() {
         return accountNumber;
@@ -39,8 +36,4 @@ abstract class BankAccount implements IBankAccount {
         this.balance = balance;
     }
 
-    @Override
-    public String toString() {
-        return "계좌 번호: " + accountNumber + " / 계좌 소유주 이름: " + accountHolder + " / 현재 잔액: " + balance;
-    }
 }
