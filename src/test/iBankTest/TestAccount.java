@@ -8,8 +8,8 @@ public class TestAccount {
     private static final ArrayList<BankAccount> accountList = new ArrayList<>();
 
     public static void main(String[] args) {
-        accountList.add(new SavingsAccount("1234", "tom", 10000, 0.05));
-        accountList.add(new CheckingAccount("2345", "lim", 20000, 0.1));
+        //accountList.add(new SavingsAccount("1234", "tom", 10000, 0.05));
+        //accountList.add(new CheckingAccount("2345", "lim", 20000, 0.1));
         boolean run = true;
         while (run) {
             System.out.println("----------------------------------------------------------");
@@ -69,7 +69,7 @@ public class TestAccount {
             System.out.print("초기대출액: ");
             double balance = scanner.nextDouble();
 
-            CheckingAccount checkingAccount = new CheckingAccount(accountNumber, accountHolder, interestRate, balance);
+            CheckingAccount checkingAccount = new CheckingAccount(accountNumber, accountHolder, balance, interestRate);
             accountList.add(checkingAccount);
             System.out.println("결과: 계좌가 생성되었습니다.");
         }
