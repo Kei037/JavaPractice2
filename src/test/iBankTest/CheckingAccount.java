@@ -8,14 +8,6 @@ public class CheckingAccount extends BankAccount {
         this.chargeRate = chargeRate;
     }
 
-    public double getChargeRate() {
-        return chargeRate;
-    }
-
-    public void setChargeRate(double chargeRate) {
-        this.chargeRate = chargeRate;
-    }
-
     @Override
     public void deposit(String accountNumber, double amount) {
         setBalance(getBalance() + amount);

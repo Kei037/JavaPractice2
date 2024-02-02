@@ -10,14 +10,6 @@ public class SavingsAccount extends BankAccount {
         this.interestRate = interestRate;
     }
 
-    public double getInterestRate() {
-        return interestRate;
-    }
-
-    public void setInterestRate(double interestRate) {
-        this.interestRate = interestRate;
-    }
-
     @Override
     public void deposit(String accountNumber, double amount) {
         setBalance(getBalance() + (interestRate * amount) + amount);
