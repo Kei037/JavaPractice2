@@ -4,23 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6dbcc0c3-0680-4348-ac4a-4d0632f64b9e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sample_file/test" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch_10/exception/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch_10/exception/Test2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch_10/exception/Test3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch_10/exception2/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch_10/fileException/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch_10/fileException/Test2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="6dbcc0c3-0680-4348-ac4a-4d0632f64b9e" name="Changes" comment="Exception study commit">
+      <change afterPath="$PROJECT_DIR$/src/test/iBankTest2/iBankTest/BankAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/iBankTest2/iBankTest/CheckingAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/iBankTest2/iBankTest/IBankAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/iBankTest2/iBankTest/SavingsAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/iBankTest2/iBankTest/TestAccount.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaPractice2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaPractice2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch_08/stack/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch_08/stack/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample_file/test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch_10/fileException/Test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch_10/fileException/Test2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/iBankTest/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/iBankTest/BankAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/iBankTest/CheckingAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/iBankTest/CheckingAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/iBankTest/SavingsAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/iBankTest/SavingsAccount.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +81,7 @@
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/junyoung/IdeaProjects/JavaPractice2",
+    "last_opened_file_path": "/Users/junyoung/IdeaProjects/JavaPractice2/src/test/iBankTest2",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -110,11 +103,11 @@
       <recent name="test" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/iBankTest2" />
       <recent name="C:\JavaYoung\JavaIntelliJ\JavaPractice2\src\ch_07\gemeric3" />
       <recent name="C:\JavaYoung\JavaIntelliJ\JavaPractice2\src\ch_07\gemeric2" />
       <recent name="C:\JavaYoung\JavaIntelliJ\JavaPractice2\src\ch_06\innerClass2" />
       <recent name="C:\JavaYoung\JavaIntelliJ\JavaPractice2\src\ch_06\interfaceTest2" />
-      <recent name="C:\JavaYoung\JavaIntelliJ\JavaPractice2\src\ch_05\interfaceTest8" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="ch_09.map4" />
@@ -124,7 +117,7 @@
       <recent name="ch_07.arrayList" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test2">
+  <component name="RunManager" selected="Application.ch_10.fileException.Test">
     <configuration name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ch_10.fileException.Test2" />
       <module name="JavaPractice2" />
@@ -192,10 +185,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ch_10.fileException.Test" />
         <item itemvalue="Application.Test2" />
         <item itemvalue="Application.ch_10.exception2.Test" />
         <item itemvalue="Application.ch_10.exception.Test3" />
-        <item itemvalue="Application.ch_10.fileException.Test" />
         <item itemvalue="Application.ch_10.exception.Test2" />
       </list>
     </recent_temporary>
@@ -238,7 +231,9 @@
       <workItem from="1706487607997" duration="15020000" />
       <workItem from="1706522609133" duration="1816000" />
       <workItem from="1706670978149" duration="18000" />
-      <workItem from="1706843942895" duration="4876000" />
+      <workItem from="1706843942895" duration="4943000" />
+      <workItem from="1707091319550" duration="791000" />
+      <workItem from="1707193309118" duration="1614000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -399,7 +394,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706503775515</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Exception study commit">
+      <option name="closed" value="true" />
+      <created>1706849238029</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1706849238029</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -433,7 +436,8 @@
     <MESSAGE value="Stack, Queue, HashSet study commit" />
     <MESSAGE value="TreeSet study post commit" />
     <MESSAGE value="TreeSet, map, HashSet study commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="TreeSet, map, HashSet study commit" />
+    <MESSAGE value="Exception study commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exception study commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

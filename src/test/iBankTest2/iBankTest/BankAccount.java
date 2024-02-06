@@ -1,6 +1,6 @@
-package test.iBankTest;
+package test.iBankTest2.iBankTest;
 
-abstract class BankAccount implements IBankAccount {
+public class BankAccount implements IBankAccount {
     private String accountNumber;
     private String accountHolder;
     private double balance;
@@ -27,4 +27,13 @@ abstract class BankAccount implements IBankAccount {
         this.balance = balance;
     }
 
+    @Override
+    public void deposit(String accountNumber, double amount) {
+
+    }
+
+    @Override
+    public void withdraw(String accountNumber, double amount) {
+
+    }
 }

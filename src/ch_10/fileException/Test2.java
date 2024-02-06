@@ -6,7 +6,7 @@ import java.io.IOException;
 
 public class Test2 {
     public static void main(String[] args) {
-        String path = "/Users/junyoung/IdeaProjects/JavaPractice2/sample_file/test";
+        String path = "/Users/junyoung/IdeaProjects/JavaPractice2/sample_file/test.txt";
 
         try(FileInputStream fileInputStream = new FileInputStream(path)) {
             System.out.println("지정한 경로에 파일이 존재합니다.");
