@@ -1,4 +1,4 @@
-package test.iBankTest2.iBankTest;
+package test.iBankTest2;
 
 public interface IBankAccount {
     void deposit(String accountNumber, double amount);

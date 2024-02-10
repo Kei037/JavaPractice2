@@ -1,4 +1,4 @@
-package test.iBankTest2.iBankTest;
+package test.iBankTest2;
 
 public class BankAccount implements IBankAccount {
     private String accountNumber;
@@ -28,12 +28,15 @@ public class BankAccount implements IBankAccount {
     }
 
     @Override
-    public void deposit(String accountNumber, double amount) {
-
-    }
+    public void deposit(String accountNumber, double amount) {}
 
     @Override
-    public void withdraw(String accountNumber, double amount) {
+    public void withdraw(String accountNumber, double amount) {}
 
+    @Override
+    public String toString() {
+        return "계좌 번호: " + getAccountNumber() + " / 계좌 소유주 이름: " +
+                getAccountHolder() + " / 현재 잔액: " + getBalance();
     }
+
 }
