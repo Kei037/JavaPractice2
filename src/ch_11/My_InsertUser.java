@@ -2,11 +2,11 @@ package ch_11;
 
 import java.sql.SQLException;
 
-public class My_CreateTable {
+public class My_InsertUser {
     public static void main(String[] args) throws SQLException {
-        DBCreate myDB = new DBCreate();
+        DBInsert myDB = new DBInsert();
         myDB.connectDB();
-        myDB.createTableUser();
+        myDB.insertUser();
         myDB.closeDB();
     }
 }
