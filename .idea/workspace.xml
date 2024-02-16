@@ -4,14 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6dbcc0c3-0680-4348-ac4a-4d0632f64b9e" name="Changes" comment="JDBC Test commit">
-      <change afterPath="$PROJECT_DIR$/src/ch_11/DBSelect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch_11/My_InsertUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch_11/My_SelectUser.java" afterDir="false" />
+    <list default="true" id="6dbcc0c3-0680-4348-ac4a-4d0632f64b9e" name="Changes" comment="JDBC (SELECT, INSERT) study commit">
+      <change afterPath="$PROJECT_DIR$/src/ch_11/adapter/Adapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch_11/adapter/AdapterNo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch_11/builder/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch_11/builder/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch_11/jdbc/DBDelete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch_11/jdbc/DBUpdate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch_11/jdbc/DBUpdate2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch_11/jdbc/My_DeleteUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch_11/jdbc/My_UpdateUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch_11/jdbc/My_UpdateUser2nd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch_11/mvc/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch_11/mvc/AccountManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch_11/mvc/AccountView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch_11/DBCreate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch_11/DBCreate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch_11/DBInsert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch_11/DBInsert.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch_11/My_CreateTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch_11/My_CreateTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch_11/DB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch_11/jdbc/DB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch_11/DBCreate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch_11/jdbc/DBCreate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch_11/DBInsert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch_11/jdbc/DBInsert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch_11/DBSelect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch_11/jdbc/DBSelect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch_11/My_01_LoadDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch_11/jdbc/My_LoadDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch_11/My_ConnectDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch_11/jdbc/My_ConnectDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch_11/My_CreateTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch_11/jdbc/My_CreateTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch_11/My_InsertUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch_11/jdbc/My_InsertUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch_11/My_SelectUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch_11/jdbc/My_SelectUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch_11/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch_11/jdbc/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,66 +64,72 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.ExString_01.executor": "Run",
-    "Application.ExValue_01.executor": "Run",
-    "Application.ExValue_02.executor": "Run",
-    "Application.ExValue_03.executor": "Run",
-    "Application.Method_02.executor": "Run",
-    "Application.Method_03.executor": "Run",
-    "Application.Method_04.executor": "Run",
-    "Application.Method_05.executor": "Run",
-    "Application.Method_06.executor": "Run",
-    "Application.Method_07.executor": "Run",
-    "Application.Method_08.executor": "Run",
-    "Application.Method_09.executor": "Run",
-    "Application.Method_10.executor": "Run",
-    "Application.Method_11.executor": "Run",
-    "Application.Method_12.executor": "Run",
-    "Application.Method_13.executor": "Run",
-    "Application.My_01_LoadDriver.executor": "Run",
-    "Application.My_ConnectDB.executor": "Run",
-    "Application.My_CreateTable.executor": "Run",
-    "Application.My_InsertUser.executor": "Run",
-    "Application.My_SelectUser.executor": "Run",
-    "Application.Test.executor": "Run",
-    "Application.Test2.executor": "Run",
-    "Application.TestAccount.executor": "Run",
-    "Application.ch_10.exception.Test2.executor": "Run",
-    "Application.ch_10.exception.Test3.executor": "Run",
-    "Application.ch_10.exception2.Test.executor": "Run",
-    "Application.ch_10.fileException.Test.executor": "Run",
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/junyoung/IdeaProjects/JavaPractice2",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/JavaYoung/JavaIntelliJ/JavaPractice2/src/Main.java",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.23160763",
-    "settings.editor.selected.configurable": "database.query.execution",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AccountView.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AdapterNo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExString_01.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExValue_01.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExValue_02.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExValue_03.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Method_02.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Method_03.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Method_04.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Method_05.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Method_06.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Method_07.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Method_08.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Method_09.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Method_10.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Method_11.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Method_12.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Method_13.executor&quot;: &quot;Run&quot;,
+    &quot;Application.My_01_LoadDriver.executor&quot;: &quot;Run&quot;,
+    &quot;Application.My_ConnectDB.executor&quot;: &quot;Run&quot;,
+    &quot;Application.My_CreateTable.executor&quot;: &quot;Run&quot;,
+    &quot;Application.My_DeleteUser.executor&quot;: &quot;Run&quot;,
+    &quot;Application.My_InsertUser.executor&quot;: &quot;Run&quot;,
+    &quot;Application.My_LoadDriver.executor&quot;: &quot;Run&quot;,
+    &quot;Application.My_SelectUser.executor&quot;: &quot;Run&quot;,
+    &quot;Application.My_UpdateUser.executor&quot;: &quot;Run&quot;,
+    &quot;Application.My_UpdateUser2nd.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestAccount.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ch_10.exception.Test2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ch_10.exception.Test3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ch_10.exception2.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ch_10.fileException.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/junyoung/IdeaProjects/JavaPractice2&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/JavaYoung/JavaIntelliJ/JavaPractice2/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.23160763&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mariadb"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mariadb&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="ch_06.innerClass4" />
@@ -125,20 +148,20 @@
       <recent name="$PROJECT_DIR$/.idea/libraries" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ch_11" />
       <recent name="ch_09.map4" />
       <recent name="ch_09.memberTreeSet" />
       <recent name="ch_08.hashSet3" />
       <recent name="ch_08.hashSet2" />
-      <recent name="ch_07.arrayList" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.My_SelectUser">
-    <configuration name="My_01_LoadDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch_11.My_01_LoadDriver" />
+  <component name="RunManager" selected="Application.AccountView">
+    <configuration name="AccountView" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch_11.mvc.AccountView" />
       <module name="JavaPractice2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch_11.*" />
+          <option name="PATTERN" value="ch_11.mvc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,12 +169,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="My_ConnectDB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch_11.My_ConnectDB" />
+    <configuration name="AdapterNo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch_11.adapter.AdapterNo" />
       <module name="JavaPractice2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch_11.*" />
+          <option name="PATTERN" value="ch_11.adapter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -159,12 +182,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="My_CreateTable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch_11.My_CreateTable" />
+    <configuration name="My_DeleteUser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch_11.jdbc.My_DeleteUser" />
       <module name="JavaPractice2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch_11.*" />
+          <option name="PATTERN" value="ch_11.jdbc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -172,12 +195,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="My_InsertUser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch_11.My_InsertUser" />
+    <configuration name="My_UpdateUser2nd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch_11.jdbc.My_UpdateUser2nd" />
       <module name="JavaPractice2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch_11.*" />
+          <option name="PATTERN" value="ch_11.jdbc.DBUpdate2" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -185,12 +208,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="My_SelectUser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch_11.My_SelectUser" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch_11.builder.Test" />
       <module name="JavaPractice2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch_11.*" />
+          <option name="PATTERN" value="ch_11.builder.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -200,11 +223,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.My_SelectUser" />
-        <item itemvalue="Application.My_InsertUser" />
-        <item itemvalue="Application.My_ConnectDB" />
-        <item itemvalue="Application.My_CreateTable" />
-        <item itemvalue="Application.My_01_LoadDriver" />
+        <item itemvalue="Application.AccountView" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.AdapterNo" />
+        <item itemvalue="Application.My_UpdateUser2nd" />
+        <item itemvalue="Application.My_DeleteUser" />
       </list>
     </recent_temporary>
   </component>
@@ -261,7 +284,9 @@
       <workItem from="1707878034189" duration="3995000" />
       <workItem from="1707882722607" duration="2310000" />
       <workItem from="1707885311399" duration="996000" />
-      <workItem from="1707957154630" duration="9335000" />
+      <workItem from="1707957154630" duration="9365000" />
+      <workItem from="1707972352783" duration="14055000" />
+      <workItem from="1708056992533" duration="1799000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -454,7 +479,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707886196057</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="JDBC (SELECT, INSERT) study commit">
+      <option name="closed" value="true" />
+      <created>1707971521000</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1707971521000</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -491,7 +524,8 @@
     <MESSAGE value="Exception study commit" />
     <MESSAGE value="Banking Test commit" />
     <MESSAGE value="JDBC Test commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="JDBC Test commit" />
+    <MESSAGE value="JDBC (SELECT, INSERT) study commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="JDBC (SELECT, INSERT) study commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

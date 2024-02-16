@@ -1,4 +1,4 @@
-package ch_11;
+package ch_11.jdbc;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;

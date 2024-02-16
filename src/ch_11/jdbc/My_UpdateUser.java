@@ -1,13 +1,14 @@
-package ch_11;
+package ch_11.jdbc;
 
 import java.sql.SQLException;
 
-public class My_SelectUser {
+public class My_UpdateUser {
     public static void main(String[] args) throws SQLException {
-        DBSelect myDB = new DBSelect();
+        DBUpdate myDB = new DBUpdate();
         myDB.connectDB();
         myDB.getAllUser();
-        myDB.getOneUser();
+        myDB.updateUser();
+        myDB.getAllUser();
         myDB.closeDB();
     }
 }

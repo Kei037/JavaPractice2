@@ -1,4 +1,4 @@
-package ch_11;
+package ch_11.jdbc;
 
 public class User { // 회원 데이터 정의. 모델 클래스
     public String userID;

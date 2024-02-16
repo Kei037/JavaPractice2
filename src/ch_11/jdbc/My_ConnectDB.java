@@ -1,4 +1,4 @@
-package ch_11;
+package ch_11.jdbc;
 
 public class My_ConnectDB {
     // Connection 객체를 생성해 DataBase 연결하기

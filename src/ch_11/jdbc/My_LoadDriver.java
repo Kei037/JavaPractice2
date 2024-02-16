@@ -1,6 +1,6 @@
-package ch_11;
+package ch_11.jdbc;
 
-public class My_01_LoadDriver {
+public class My_LoadDriver {
     // 드라이버 클래스를 로드
     public static void loadDriver() {
         try {

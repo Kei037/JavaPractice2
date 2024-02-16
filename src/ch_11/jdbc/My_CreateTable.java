@@ -1,12 +1,12 @@
-package ch_11;
+package ch_11.jdbc;
 
 import java.sql.SQLException;
 
-public class My_InsertUser {
+public class My_CreateTable {
     public static void main(String[] args) throws SQLException {
-        DBInsert myDB = new DBInsert();
+        DBCreate myDB = new DBCreate();
         myDB.connectDB();
-        myDB.insertUser();
+        myDB.createTableUser();
         myDB.closeDB();
     }
 }

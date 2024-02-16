@@ -1,4 +1,4 @@
-package ch_11;
+package ch_11.jdbc;
 
 public class DBCreate extends DB { // 상속을 사용
     public void createTableUser() {
