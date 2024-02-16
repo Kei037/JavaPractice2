@@ -115,9 +115,40 @@ public class AccountManager {
     }
 
     public void display() { // 출력
+        ArrayList<Account> list = selectAll();
         for (Account account : list) {
             System.out.println(account.getId() + "\t" + account.getName() + "\t" + account.getBalance());
         }
+    }
+
+    private ArrayList<Account> selectAll() {
+        // 전체 정보 전달
+        Statement statement = null;
+        ArrayList<Account> list = new ArrayList<>();
+        try {
+            String sql = "SELECT * FROM account ";
+            System.out.println(sql);
+            statement = connection.createStatement();
+            ResultSet resultSet = statement.executeQuery(sql);
+            while (resultSet.next()) {
+
+                Account account = new Account(resultSet.getInt("id"), resultSet.getString("name"),
+                        resultSet.getInt("balance"));
+                list.add(account);
+            }
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            try {
+                if (statement != null) {
+                    statement.close();
+                }
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
+        }
+        return list;
     }
 
     private boolean isAccount(int id) { // 동일한 계좌가 있는지

@@ -4,32 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6dbcc0c3-0680-4348-ac4a-4d0632f64b9e" name="Changes" comment="JDBC (SELECT, INSERT) study commit">
-      <change afterPath="$PROJECT_DIR$/src/ch_11/adapter/Adapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch_11/adapter/AdapterNo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch_11/builder/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch_11/builder/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch_11/jdbc/DBDelete.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch_11/jdbc/DBUpdate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch_11/jdbc/DBUpdate2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch_11/jdbc/My_DeleteUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch_11/jdbc/My_UpdateUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch_11/jdbc/My_UpdateUser2nd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch_11/mvc/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch_11/mvc/AccountManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch_11/mvc/AccountView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch_11/DB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch_11/jdbc/DB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch_11/DBCreate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch_11/jdbc/DBCreate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch_11/DBInsert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch_11/jdbc/DBInsert.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch_11/DBSelect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch_11/jdbc/DBSelect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch_11/My_01_LoadDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch_11/jdbc/My_LoadDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch_11/My_ConnectDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch_11/jdbc/My_ConnectDB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch_11/My_CreateTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch_11/jdbc/My_CreateTable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch_11/My_InsertUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch_11/jdbc/My_InsertUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch_11/My_SelectUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch_11/jdbc/My_SelectUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch_11/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch_11/jdbc/User.java" afterDir="false" />
-    </list>
+    <list default="true" id="6dbcc0c3-0680-4348-ac4a-4d0632f64b9e" name="Changes" comment="JDBC, Adapter, Builder study commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -286,7 +261,7 @@
       <workItem from="1707885311399" duration="996000" />
       <workItem from="1707957154630" duration="9365000" />
       <workItem from="1707972352783" duration="14055000" />
-      <workItem from="1708056992533" duration="1799000" />
+      <workItem from="1708056992533" duration="1911000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -487,7 +462,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707971521000</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="JDBC, Adapter, Builder study commit">
+      <option name="closed" value="true" />
+      <created>1708058895756</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1708058895756</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -525,7 +508,8 @@
     <MESSAGE value="Banking Test commit" />
     <MESSAGE value="JDBC Test commit" />
     <MESSAGE value="JDBC (SELECT, INSERT) study commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="JDBC (SELECT, INSERT) study commit" />
+    <MESSAGE value="JDBC, Adapter, Builder study commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="JDBC, Adapter, Builder study commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
