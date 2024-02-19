@@ -1,4 +1,4 @@
-package ch_11.mvc;
+package ch_11.mvc.account_ex2;
 
 import java.util.Scanner;
 
@@ -42,7 +42,7 @@ public class AccountView {
                     break;
                 case 6:
                     System.out.println("종료합니다.");
-                    stdIn.close();
+                    manager.disConnect();
                     return;
                 default:
                     System.out.println("잘못누르셧습니다.\n다시선택해주세요.");

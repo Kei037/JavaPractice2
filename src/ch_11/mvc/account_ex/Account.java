@@ -1,4 +1,4 @@
-package ch_11.mvc;
+package ch_11.mvc.account_ex;
 /* DTO(Data Transfer Object), VO(Value Object)
 로직을 갖고 있지 않는 순수한 데이터 객체이며 속성과 그 속성에 접근하기 위한 getter, setter 메소드만 가진 클레스
  */
