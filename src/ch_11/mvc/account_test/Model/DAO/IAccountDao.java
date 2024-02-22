@@ -1,4 +1,8 @@
-package ch_11.mvc.account_test;
+package ch_11.mvc.account_test.Model.DAO;
+
+import ch_11.mvc.account_test.Model.DTO.Account;
+import ch_11.mvc.account_test.Model.DTO.AccountHistory;
+import ch_11.mvc.account_test.Model.DTO.Member;
 
 import java.util.ArrayList;
 

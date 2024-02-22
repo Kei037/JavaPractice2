@@ -1,4 +1,6 @@
-package ch_11.mvc.account_test;
+package ch_11.mvc.account_test.View;
+
+import ch_11.mvc.account_test.Controller.AccountManager;
 
 import java.util.Scanner;
 

@@ -1,12 +1,16 @@
-package ch_11.mvc.account_test;
+package ch_11.mvc.account_test.Model.DAO;
+
+import ch_11.mvc.account_test.Model.DTO.Account;
+import ch_11.mvc.account_test.Model.DTO.AccountHistory;
+import ch_11.mvc.account_test.Model.DTO.Member;
 
 import java.sql.*;
 import java.util.ArrayList;
 
-public class AccountDAO implements IAccountDao{
+public class AccountDAO implements IAccountDao {
     private Connection connection = null;
 
-    AccountDAO() { getConnection(); }
+    public AccountDAO() { getConnection(); }
 
     @Override
     public void getConnection() { // DB 연결

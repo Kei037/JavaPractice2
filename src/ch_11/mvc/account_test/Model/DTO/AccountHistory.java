@@ -1,4 +1,4 @@
-package ch_11.mvc.account_test;
+package ch_11.mvc.account_test.Model.DTO;
 
 public class AccountHistory {
     private int no;

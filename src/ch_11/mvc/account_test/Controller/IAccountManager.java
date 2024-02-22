@@ -1,4 +1,6 @@
-package ch_11.mvc.account_test;
+package ch_11.mvc.account_test.Controller;
+
+import ch_11.mvc.account_test.Model.DTO.Account;
 
 public interface IAccountManager {
     void addMember(); // 회원 등록
