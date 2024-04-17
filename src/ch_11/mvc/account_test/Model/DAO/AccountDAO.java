@@ -90,7 +90,6 @@ public class AccountDAO implements IAccountDao {
             try (ResultSet resultSet = preparedStatement.executeQuery()) {
                 while (resultSet.next()) {
                     AccountHistory accountHistory = new AccountHistory();
-                    accountHistory.setNo(resultSet.getInt("no"));
                     accountHistory.setAcnum(resultSet.getString("acnum"));
                     accountHistory.setTranstype(resultSet.getString("transtype"));
                     accountHistory.setAmount(resultSet.getDouble("amount"));
